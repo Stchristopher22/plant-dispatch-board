@@ -14,7 +14,18 @@ A comprehensive order management system for plant centres with **AI-powered prio
 🔧 **Backend API:** [http://localhost:5000](http://localhost:5000)
 
 ## 📸 Screenshots
+-- Export Page
 <img width="537" height="542" alt="image" src="https://github.com/user-attachments/assets/388a15af-fade-41a2-8ca6-867cec6f6381" />
+-- Navbar 
+<img width="1338" height="373" alt="image" src="https://github.com/user-attachments/assets/ed53842c-f1a1-413e-9d23-0e0c32cfbd58" />
+-- Analysis Board Chart
+<img width="1352" height="538" alt="image" src="https://github.com/user-attachments/assets/d77b5e74-b625-4857-ac00-a4a5cd97d307" />
+-- Add order tab
+<img width="718" height="595" alt="image" src="https://github.com/user-attachments/assets/e4ec851c-f640-472c-982c-bd7becdc5edd" />
+-- The order Card
+<img width="1351" height="489" alt="image" src="https://github.com/user-attachments/assets/871d0f15-4333-4bbf-b89c-793cd439558b" />
+
+
 
 
 
