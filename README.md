@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# 🌿 Plant Centre Dispatch Board
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-18.x-green.svg)](https://nodejs.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-6.x-brightgreen.svg)](https://www.mongodb.com/)
+[![Express](https://img.shields.io/badge/Express-4.x-orange.svg)](https://expressjs.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## Available Scripts
+A comprehensive order management system for plant centres with **AI-powered priority scoring**, team assignment, real-time tracking, and multi-format reporting.
 
-In the project directory, you can run:
+## ✨ Live Demo
 
-### `npm start`
+🚀 **Frontend:** [http://localhost:3000](http://localhost:3000) (after running locally)  
+🔧 **Backend API:** [http://localhost:5000](http://localhost:5000)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📸 Screenshots
+<img width="537" height="542" alt="image" src="https://github.com/user-attachments/assets/388a15af-fade-41a2-8ca6-867cec6f6381" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌟 Features
 
-### `npm run build`
+### Core Features
+- 📦 **Order Management** - Create, edit, delete, and track orders
+- 🤖 **AI Priority Scoring** - Automatic priority calculation based on:
+  - Dispatch deadlines
+  - Order quantity
+  - Delivery distance
+  - Event type (Weddings get higher priority)
+- 👥 **Team Assignment** - Auto-split orders across 5 team members
+- 📍 **Pan India Delivery** - Distance calculation for 50+ cities
+- 🏷️ **Tag Management** - Custom tag instructions with production checklist
+- 📊 **Real-time Analytics** - Interactive charts and statistics
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Export Features
+- 📊 **Excel Export** - Multi-sheet reports with formatted data
+- 📄 **PDF Export** - Professional report with summary cards
+- 📋 **CSV Export** - Compatible with any spreadsheet software
+- 🔧 **JSON Export** - Complete data backup and restore
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Visual Features
+- 📈 **Interactive Charts** - Priority, status, and region distribution
+- 🎯 **Priority Indicators** - Color-coded urgency levels
+- 🔍 **Search & Filter** - Search by order number, customer, or location
+- 📅 **Date Views** - Filter orders by dispatch date
+- 👥 **Team View** - See assignments per team member
+- 🎨 **Responsive Design** - Works on desktop, tablet, and mobile
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Tech Stack
 
-### `npm run eject`
+### Frontend
+- **React 18** - UI Framework with Hooks
+- **Chart.js** - Interactive analytics visualizations
+- **XLSX** - Excel export functionality
+- **jsPDF** - PDF report generation
+- **CSS3** - Custom styling with smooth animations
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Backend
+- **Node.js** - JavaScript runtime environment
+- **Express.js** - Fast, unopinionated web framework
+- **MongoDB** - NoSQL database
+- **Mongoose** - Elegant MongoDB object modeling
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📋 Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Before you begin, ensure you have installed:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Node.js** (v18 or higher) - [Download](https://nodejs.org/)
+- **MongoDB** (v6 or higher) - [Download](https://www.mongodb.com/try/download/community)
+- **Git** - [Download](https://git-scm.com/)
+- **npm** or **yarn** (comes with Node.js)
 
-## Learn More
+## 🛠️ Installation & Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 1. Clone the Repository
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/Stchristopher22/plant-dispatch-board.git
+cd plant-dispatch-board
