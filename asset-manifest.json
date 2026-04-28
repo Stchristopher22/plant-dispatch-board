@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/plant-dispatch-board/static/css/main.35d2c62b.css",
+    "main.js": "/plant-dispatch-board/static/js/main.40bc195a.js",
+    "index.html": "/plant-dispatch-board/index.html",
+    "main.35d2c62b.css.map": "/plant-dispatch-board/static/css/main.35d2c62b.css.map",
+    "main.40bc195a.js.map": "/plant-dispatch-board/static/js/main.40bc195a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35d2c62b.css",
+    "static/js/main.40bc195a.js"
+  ]
+}
